@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html id="home" lang="en"> 
+<head>
+  <title>Andrew Phoenix</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/960.css"/>
+  <link rel="stylesheet" href="css/text.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="/js/ezbg.js"></script>
+  <meta charset="utf-8" />
+</head>
+<body>
+<div id="body-background">
+ <img src="bg-cn-1507.jpg" alt="Bg" />
+</div>
+<div class="thebusinesscard">
+  <header>
+    <h1>andrew phoenix</h1>
+    <h2>web developer</h2>
+  </header>
+  <section id="about" class="grid_5 suffix_1 alpha">
+    <h2>about me</h2>
+    <p>
+     I live in the quiet city of Guelph, Ontario with my wife and two daughters. I love music and I've been the bassist in a punk band and the piano player in a jazz band. I've got a bristly red beard and a ton of freckles
+    </p>
+    <p>
+     I think code is art and should be beautiful. I think code is science and should be exactly, precisely right.
+    </p>
+    <p>I have no problem reconciling these ideals.</p>
+  </section>
+  <section id="contact" class="grid_3 omega">
+    <h2>socializing</h2>
+    <ul>
+     <li><a href="http://www.twitter.com/andrewphoenix"><img src="/icons/twitter.png" alt="twitter"/> @andrewphoenix</a></li>
+     <li><a href="http://www.facebook.com/andrewphoenix"><img src="/icons/facebook.png" alt="facebook"/> /andrewphoenix</a></li>
+     <li><a href="http://www.reddit.com/user/aphoenix/"><img src="/icons/reddit.png" alt="reddit"/> aphoenix</a></li>
+     <li><a href="http://www.aphoenix.ca"><img src="/icons/rss.png" alt="blog"> aphoenix.ca</a></li>
+     <li><a href="mailto:andrew@aphoenix.ca"><img src="/icons/gmail.png" alt="email"/> andrew@aphoenix.ca</a></li>
+    </ul>
+  </section>
+  <footer id="tweets" class="grid_7 alpha">
+<!--[if lt IE 9]>
+<p> please consider a different browser: 
+<a href="http://www.getfirefox.com">Firefox</a>
+<a href="http://www.google.com/chrome/">Chrome</a>
+<a href="http:/www.opera.com">Opera</a>
+</p>
+<![endif]-->
+  <script type="text/javascript"><!-- 
+//grab a tweet 
+   $(document).ready(function () {
+     $("#body-background").ezBgResize();
+     $.getJSON(  
+       'http://twitter.com/status/user_timeline/andrewphoenix.json?count=1&callback=?',  
+       function(data) {  
+         if (data.length>0) {  
+           $('#tweets').html('<h3>a recent thought</h3><p class="pontification"></p>');  
+     //debugger;  
+           data.forEach(function(datum) {  
+             $('.pontification').append(datum.text);  
+           });  
+         }  
+       }  
+     );  
+   });  
+   
+//finish the tweet thing
+
+
+//analytics
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15171947-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+//analytics done
+-->
+</script>  
+  </footer>
+</div>
+</body>
+</html>

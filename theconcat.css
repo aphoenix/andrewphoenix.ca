@@ -1,0 +1,61 @@
+a,abbr,acronym,address,applet,article,aside,audio,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,iframe,img,ins,kbd,label,legend,li,mark,menu,meter,nav,object,ol,output,p,pre,progress,q,rp,rt,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,ul,var,video,xmp{border:0;font-size:100%;margin:0;padding:0}html,body{height:100%}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}b,strong{font-weight:bold}img{font-size:0;vertical-align:middle;-ms-interpolation-mode:bicubic}li{display:list-item}table{border-collapse:collapse;border-spacing:0}th,td,caption{font-weight:normal;vertical-align:top;text-align:left}svg{overflow:hidden}
+
+
+
+
+
+.background {
+  left:0;
+  overflow:hidden;
+  position:fixed;
+  top:0;
+  z-index:-1;
+  } 
+
+#strangerdangerstrangerdanger {
+  background-color:red;
+  color:white;
+  font-size:12px;
+  position:absolute:
+  top:0;
+  left:0;
+}
+
+.thebusinesscard {
+  font:15px/1.2 Helvetica, Arial, FreeSans,sans-serif;
+  position:absolute;
+  top:20px;
+  left:20px;
+  -mox-box-shadow:5px 5px 10px #aaa;
+  box-shadow:5px 5px 10px #aaa;
+  -webit-box-shadow:5px 5px 10px #aaa;
+  padding-left:20px;padding-right:20px;
+  background-color:#fff;
+  opacity:0.9;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+}
+a, a:visited, a:focus {font-weight:bold;text-decoration:none;color:#668896;}
+a:hover {padding-left:2px;}
+a:focus {outline:1px dotted;padding-left:0;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', Times New roman, serif;
+  color:#222444;
+  text-shadow:1px 0px 3px #999ff9;
+}
+h1 {
+  font-size:46px;
+  margin-top:10px;
+}
+h2 {
+  font-size:28px;}
+ul {list-style:none;}
+ li{margin-left:30px;}
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset,figure{margin-bottom:10px;}
+
+li {
+ margin-left:0;
+ padding-bottom:3px;
+ 	}
+.pontification {font:26px 'Pacifico';color:#333666;text-shadow:1px 1px 2px #bad;}
